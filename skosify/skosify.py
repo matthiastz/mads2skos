@@ -6,7 +6,7 @@ import logging
 import datetime
 
 from rdflib import Graph, URIRef, BNode, Literal
-from rdflib.namespace import Namespace, RDF, RDFS, OWL, DC, DCTERMS, XSD, SKOS
+from rdflib.namespace import Namespace, RDF, RDFS, OWL, DC, DCTERMS, XSD, SKOS, ClosedNamespace
 from .rdftools.namespace import SKOSEXT
 from .rdftools import (
     read_rdf,
@@ -68,6 +68,8 @@ def in_general_ns(uri):
     RDFSuri = RDFS.uri
 
     for ns in (RDFuri, RDFSuri, OWL, SKOS, DC):
+        if isinstance(ns, ClosedNamespace):
+            ns = ns.__str__()
         if uri.startswith(ns):
             return True
     return False

@@ -5,10 +5,10 @@ Background for MADS to SKOS mapping:
 - https://www.w3.org/2005/Incubator/lld/wiki/Authority_Concept_Mappings
 - https://www.loc.gov/standards/mads/rdf/mads2skos-20101119.ttl
 
-for example usage check: `examples/mads2skos.cfg`
+for example usage check: `examples/mads2skos.cfg`_.
 
-============
 (original README from Skosify):
+============
 
 .. image:: https://badge.fury.io/py/skosify.svg
    :target: https://badge.fury.io/py/skosify.svg    

@@ -1,4 +1,4 @@
-mads2skos powered by Skosify
+### mads2skos powered by Skosify
 
 MADS to SKOS mapping:
 - http://id.loc.gov/ontologies/madsrdf/v1.html#c_MADSScheme
@@ -7,7 +7,8 @@ MADS to SKOS mapping:
 
 for example usage check: examples/mads2skos.cfg
 
-(original README from Skosify)
+(original README from Skosify):
+
 .. image:: https://badge.fury.io/py/skosify.svg
    :target: https://badge.fury.io/py/skosify.svg    
 .. image:: https://travis-ci.org/NatLibFi/Skosify.svg?branch=master

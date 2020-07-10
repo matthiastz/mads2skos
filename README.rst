@@ -1,12 +1,13 @@
 ### mads2skos powered by Skosify
 
-MADS to SKOS mapping:
+Background for MADS to SKOS mapping:
 - http://id.loc.gov/ontologies/madsrdf/v1.html#c_MADSScheme
 - https://www.w3.org/2005/Incubator/lld/wiki/Authority_Concept_Mappings
 - https://www.loc.gov/standards/mads/rdf/mads2skos-20101119.ttl
 
-for example usage check: examples/mads2skos.cfg
+for example usage check: `examples/mads2skos.cfg`
 
+============
 (original README from Skosify):
 
 .. image:: https://badge.fury.io/py/skosify.svg

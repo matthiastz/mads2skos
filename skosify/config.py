@@ -71,7 +71,7 @@ class Config(object):
         self.namespace = None
         self.label = None
         self.set_modified = False
-        self.default_language = None
+        self.default_language = 'en'
         self.preflabel_policy = 'shortest'
         self.infer = False
         self.update_query = None
